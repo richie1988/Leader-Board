@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: auto;
+  width: 100%;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.first-card {
+  width: 100%;
+  padding: 16px;
+  height: auto;
+}
+
+.refresh {
+  padding: 5px 8px;
+}
+
+#list-scores {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  list-style: none;
+  padding: 10px;
+  margin: 12px auto;
+}
+
+.second-card {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 12px 0;
+  padding: 10px;
+}
+
+.submit {
+  float: right;
+  padding: 5px 8px;
+}
+
+@media only  screen and (min-width: 768px) {
+  .main-container {
+    width: 700px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+  }
+}
