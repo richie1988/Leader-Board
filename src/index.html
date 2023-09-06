@@ -10,23 +10,18 @@
         <h1>Leaderboard</h1>
         <section class="main-container">
         <div class="first-card">
-            <h3>Recent Scores <button class="refresh" type="reset">Refresh</button></h3>
-        <div id="list-scores">
-            <u>
-                <li> name : 200</li>
-                <li> name : 400</li>
-                <li> name : 30</li>
-                <li> name : 10</li>
-                <li> name : 70</li>
-            </u>
-        </div>
+            <h3>Recent Scores <button class="refresh" type="button">Refresh</button></h3>
+            <div id="list-scores">
+                <!--Dynamically content its created here -->
+            </div>
         </div>
         <div class="second-card">
             <h3>Add your scores</h3>
             <form  id="form">
                 <div class="input">
-                <input class="name" type="text" placeholder="your name">
-                <input class="Scores" type="text" placeholder="your scores">
+                <input class="name" type="text"  name="name"  placeholder="your name" required  maxlength="30"/>
+                <input class="Scores" type="number" name="scores"  placeholder="your scores" required maxlength="99"/>
+                <span id="message-container"></span>
             </div>
                 <button class="submit" type="submit">submit</button>
             </form>
