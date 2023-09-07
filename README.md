@@ -2,9 +2,14 @@
 <div>
 <img src="leaderboard.png"/>
 </div>
+
+#leaderboard
+
+
 - [📖 \[Leaderboard\] ](#-leaderboard-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+    - [Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -56,8 +61,9 @@ Javascript
 - **[]**-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Live Demo
 
-<a href="richard-leaderboard-3833aa.netlify.app">Live Demo <a name="live-demo"></a>
+<a href="https://richard-leaderboard-3833aa.netlify.app/">Live Demo <a name="live-demo"></a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
