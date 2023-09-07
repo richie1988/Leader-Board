@@ -1,7 +1,7 @@
 <a name="Richard Sikaonga"></a>
-# 📗 Table of Contents
-
-- [📗 Table of Contents](#-table-of-contents)
+<div>
+<img src="leaderboard.png"/>
+</div>
 - [📖 \[Leaderboard\] ](#-leaderboard-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -57,7 +57,7 @@ Javascript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--## 🚀 Live Demo <a name="live-demo"></a>-->
+<a href="richard-leaderboard-3833aa.netlify.app">Live Demo <a name="live-demo"></a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
