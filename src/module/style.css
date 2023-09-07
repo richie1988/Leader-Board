@@ -8,6 +8,7 @@ body {
   font-family: 'Trebuchet MS', sans-serif;
   height: auto;
   width: 100%;
+  background-color: rgb(103, 112, 112);
 }
 
 main {
@@ -19,27 +20,64 @@ main {
   align-items: center;
 }
 
+.tittle {
+  width: 100%;
+  height: auto;
+  background-color: rgb(70, 68, 66);
+  text-align: center;
+  border-bottom: 6px solid rgb(165, 2, 42);
+}
+
+.tittle h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: rgb(106, 243, 234);
+  padding: 10px;
+}
+
 .main-container {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: auto auto;
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 20px rgb(146, 123, 123);
 }
 
 .first-card {
   width: 100%;
   padding: 16px;
   height: auto;
+  box-shadow: 0 0 14px red;
+  border: 5px solid rgb(20, 14, 14);
+  border-radius: 5px;
+  background-color: rgb(245, 232, 232);
+}
+
+.first-card h3 {
+  font-size: 29px;
+  color: rgb(29, 31, 31);
 }
 
 #refresh {
-  padding: 5px 8px;
+  font-weight: 600;
+  font-size: 19px;
+  padding: 6px 16px;
+  background-color: rgb(119, 2, 26);
+  color: rgb(240, 248, 255);
+  border-radius: 5px;
+  float: right;
+}
+
+#refresh:hover {
+  background-color: rgb(5, 100, 5);
 }
 
 #list-scores {
   width: 100%;
   height: auto;
   border: 2px solid black;
+  border-radius: 6px;
   list-style: none;
   padding: 10px;
   margin: 12px auto;
@@ -51,13 +89,24 @@ main {
   background-color: rgb(73, 72, 82);
   border-bottom: 2px solid rgb(139, 21, 21);
   margin-bottom: 5px;
-  padding: 0 6px;
+  padding: 3px 9px;
+  border-radius: 5px;
 }
 
 .second-card {
   width: 100%;
   height: auto;
   padding: 12px;
+  box-shadow: 0 0 14px red;
+  border: 5px solid rgb(20, 14, 14);
+  border-radius: 5px;
+  background-color: rgb(245, 232, 232);
+}
+
+.second-card h3 {
+  margin-left: 10px;
+  font-size: 29px;
+  color: rgb(29, 31, 31);
 }
 
 .input {
@@ -70,11 +119,55 @@ main {
 
 input {
   padding: 6px;
+  border-radius: 6px;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgb(241, 29, 29);
+}
+
+#message-container {
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: rgb(250, 202, 45);
+  color: rgb(87, 13, 74);
+  padding: 0 6px;
 }
 
 #submit {
   float: right;
-  padding: 5px 8px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 19px;
+  padding: 6px 16px;
+  background-color: rgb(4, 110, 96);
+  color: rgb(241, 244, 247);
+  cursor: pointer;
+  animation-name: submit;
+}
+
+#submit:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.roll {
+  width: 3%;
+  height: auto;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  animation: 4s linear 0s infinite alternate slidein;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(100vh);
+    background-color: rgb(226, 95, 7);
+    filter: brightness(75%);
+  }
+
+  to {
+    transform: translateX(0);
+    background-color: rgb(250, 242, 244);
+  }
 }
 
 @media only  screen and (min-width: 768px) {
@@ -84,5 +177,9 @@ input {
     display: grid;
     grid-template-columns: auto auto;
     gap: 39px;
+  }
+
+  .sun {
+    margin-left: 30px;
   }
 }
