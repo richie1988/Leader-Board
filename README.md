@@ -1,7 +1,6 @@
 <a name="Richard Sikaonga"></a>
-# 📗 Table of Contents
+<div></div>
 
-- [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Leaderboard\] ](#-leaderboard-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)

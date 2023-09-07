@@ -2,6 +2,9 @@
   "homepage": "https://richie1988.github.io/Leader-Board",
   "name": "leader-board",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/richie1988/Leader-Board.git"
+  },
   "description": "<a name=\"Richard Sikaonga\"></a>\r # 📗 Table of Contents",
   "private": true,
   "scripts": {
@@ -9,9 +12,9 @@
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "server": "node server.js",
+    "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "webpack"
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
