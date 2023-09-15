@@ -61,7 +61,7 @@ Javascript
 - **[]**-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-### Live Demo
+# Live Demo
 
 <a href="https://richard-leaderboard-3833aa.netlify.app/">Live Demo <a name="live-demo"></a>
 
