@@ -26,7 +26,7 @@
 
 # 📖 [Leaderboard] <a name="Leaderboard"></a>
 
-This the festival website it makes music lovers to follow there festivall and whats happening around the world
+This the leaderboard  website it makes sports lovers to recorad the scores from each teams sides
 Its Mobile vision app and can be accessed on the Mobile devices and Desktop
 
 **[leaderboard-App]** is a Mobile vision app that makes easier for Developers to chocase there projects
